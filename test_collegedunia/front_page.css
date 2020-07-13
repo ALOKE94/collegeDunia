@@ -1,0 +1,204 @@
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      width: 90%;
+    }
+
+
+
+    .Colleges-in-North-India {
+      width: 180px;
+      height: 18px;
+      font-family: DINPro;
+      font-size: 18.5px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.97;
+      letter-spacing: normal;
+      text-align: left;
+      color: #444444;
+      padding-left: 56px;
+      padding-top: 49px;
+    }
+    
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+    .container {
+      padding: 68px 51px 135px 51px;
+    }
+
+
+  .flex-container {
+   display: flex;
+   justify-content: space-between;
+   display: flex;
+   align-items: center;
+
+}
+
+
+.details-container {
+  display: flex;
+  justify-content:space-between;
+  content: "";
+  clear: both;
+  padding:10px 10px 10px 10px
+  
+}
+
+.discount-tags {
+	display: inline-block;
+  
+  width: auto;
+	height: 30px;
+	
+	background-color: #dd1c26;
+	-webkit-border-radius: 3px 4px 4px 3px;
+	-moz-border-radius: 3px 4px 4px 3px;
+	border-radius: 3px 4px 4px 3px;
+	
+	border-left: 1px solid #dd1c26;
+
+	/* This makes room for the triangle */
+	margin-left: 19px;
+	
+	position: relative;
+	
+	color: white;
+	font-weight: 300;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+
+	padding: 0 10px 0 10px;
+}
+
+/* Makes the triangle */
+.discount-tags:before {
+	content: "";
+	position: absolute;
+	display: block;
+	left: -15px;
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 15px solid #dd1c26;
+}
+
+/* Makes the circle */
+.discount-tags:after {
+	content: "";
+	background-color: white;
+	border-radius: 50%;
+	width: 4px;
+	height: 4px;
+	display: block;
+	position: absolute;
+	left: -7px;
+	top: 13px;
+}
+
+.imageContainer {
+   position: relative;
+   text-align: center;
+   color: white;
+ }
+
+ .top-right {
+   position: absolute;
+   top: 20px;
+   right: 16px;
+ }
+
+ .square {
+  width: 75px;
+  height: 53px;
+  border-radius: 3.8px;
+  background-color: #f5a626;
+  text-align: center;
+ }
+ 
+ .bottom-right {
+   position: absolute;
+   bottom: 8px;
+   right: 16px;
+ }
+
+ .bottom-left {
+   position: absolute;
+   bottom: 8px;
+   left: 16px;
+ }
+
+ .chip {
+   display: inline-block;
+   padding: 0 25px;
+   height: 40px;
+   font-size: 12px;
+   line-height: 40px;
+   border-radius: 25px;
+   background-color: #f1f1f1;
+ }
+
+ .img{
+   filter: brightness(50%); 
+ }
+
+ .rating  {
+   position: absolute;
+}
+
+.starChecked {
+   color: black;
+ }
+ .Free-Cancellation {
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #37b396;
+}
+.column {
+  float: left;
+  width: 70%;
+ 
+}
+.column3 {
+  float: left;
+  width: 49%;
+ 
+}
+.column2{
+  flex-grow: 1;
+    float: right;
+    text-align: right;
+}
+.ribbon {
+  top: -17px;
+  right: -1px;
+  height: 32px;
+  width: 120px;
+  font-weight: bold;
+  padding-left: 16px;
+  position: absolute;
+  background: #68a7ff;
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 99%, 0 100%, 15% 50%);
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
